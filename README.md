@@ -18,3 +18,9 @@ Then **install the** [Angular CLI](https://github.com/angular/angular-cli) globa
 ```
 npm install -g @angular/cli
 ```
+
+### Step 2. Create a new project
+
+Open a terminal window.
+
+Generate a new project and 
