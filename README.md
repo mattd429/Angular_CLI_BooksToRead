@@ -2,3 +2,19 @@
 
 # Angular_CLI_BooksToRead
 Creating a AngularCLI using NodeJS v8.9.1 and npm v5.5.1.
+
+---
+
+### Step 1. Set up the Development Enviroment.
+
+You need to set up  your development enviroment before you can do anything.
+
+install [Node.js® and npm](https://nodejs.org/en/download/) if they are not already on your machine.
+
+>**Verify that you are running at least NodeJS** 6.9.x **and npm** 3.x.x by running `node -v` and `npm -v` in the terminal/console window. Older versions produce errors, but newer versions are fine.
+
+Then **install the** [Angular CLI](https://github.com/angular/angular-cli) globally.
+
+```
+npm install -g @angular/cli
+```
