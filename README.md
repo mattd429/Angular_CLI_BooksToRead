@@ -28,3 +28,16 @@ Generate a `git clone`:
 ```
 git clone https://github.com/mattd429/Angular_CLI_BooksToRead.git
 ```
+
+### Step 3. Serve the application
+
+Go to the project directory and launch the server
+
+```
+cd Angular_CLI_BooksToRead
+ng serve --open
+```
+
+The `ng-serve` command launches the server, watches your files, and rebuilds the app as you make changes to those files.
+
+Using the `--open`(or just `-o`) option will automatically open your browser on `http://localhost:4200/`
