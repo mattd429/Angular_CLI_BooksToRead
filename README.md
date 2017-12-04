@@ -23,4 +23,8 @@ npm install -g @angular/cli
 
 Open a terminal window.
 
-Generate a new project and 
+Generate a `git clone`:
+
+```
+git clone https://github.com/mattd429/Angular_CLI_BooksToRead.git
+```
