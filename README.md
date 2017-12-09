@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/download)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/badge/last%20commit-today-brightgreen.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/commit/6cbccee181c21e3490e959ad4887721dc48d33d1)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/download)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/badge/last%20commit-today-brightgreen.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/commit/94cc36c2aaf857d7f6fc8336df84a5a449e131f5)
 
 # Angular_CLI_BooksToRead
 Creating a AngularCLI using NodeJS v8.9.1 and npm v5.5.1.
