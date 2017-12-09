@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/download)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/badge/last%20commit-today-brightgreen.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/commit/94cc36c2aaf857d7f6fc8336df84a5a449e131f5)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/download)  [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/blob/master/LICENSE) [![GitHub last commit](https://img.shields.io/badge/last%20commit-today-brightgreen.svg)](https://github.com/mattd429/Angular_CLI_BooksToRead/commit/958c3ab355296543d71cc12809b9cda24a00e82e)
 ![alt text](https://img.shields.io/badge/test-failing-red.svg)
 
 # Angular_CLI_BooksToRead
