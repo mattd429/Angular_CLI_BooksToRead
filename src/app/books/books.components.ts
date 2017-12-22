@@ -16,7 +16,7 @@ export class BooksComponent implements OnInIt {
   
   books: Book[];
   
-  constructor() { }
+  constructor(private bookService: BookService) { }
   
   ngOnInIt() {
   }
