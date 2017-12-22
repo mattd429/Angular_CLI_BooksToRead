@@ -9,16 +9,21 @@ import { BookService } from '../book.service';
 })
 export class BooksComponent implements OnInIt {
   selectedBook: Book;
-  
-  onSelected(book: Book): void {
-    this.selectedBook = book;
-  }
-  
   books: Book[];
   
   constructor(private bookService: BookService) { }
   
   ngOnInIt() {
+    
+  }
+  
+  onSelected(book: Book): void {
+    this.selectedBook = book;
+  }
+  
+  // retreive books from the service...
+  getBooks(): void {
+    this.books = this.bookService.getBooks();
   }
 
 }
