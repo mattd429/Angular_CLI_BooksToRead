@@ -1,6 +1,6 @@
 import { Component, OnInIt } from '@angular/core';
 import { Book } from '../book';
-import {BOOKS} from '../mock-books';
+import { BookService } from '../book.service';
 
 @Component({
   selector: 'app-books',
@@ -14,7 +14,7 @@ export class BooksComponent implements OnInIt {
     this.selectedBook = book;
   }
   
-  books = BOOKS;
+  books: Book[];
   
   constructor() { }
   
