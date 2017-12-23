@@ -9,7 +9,8 @@ import { MessagesService } from './message.service';
 @Injectable()
 export class BookService {
   
-  constructor() { }
+  // Inject MessageService into book.service.ts
+  constructor(private messageService: MessageService) { }
   
   getBooks(): Observable<Book[]> {
     return of(BOOKS);
