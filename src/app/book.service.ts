@@ -13,6 +13,7 @@ export class BookService {
   constructor(private messageService: MessageService) { }
   
   getBooks(): Observable<Book[]> {
+    this.messageService.add('BookService: fetched books');
     return of(BOOKS);
   }
   
