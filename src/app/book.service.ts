@@ -10,8 +10,8 @@ export class BookService {
   
   constructor() { }
   
-  getBooks(): Book[] {
-    return BOOKS;
+  getBooks(): Observable<Book[]> {
+    return of(BOOKS);
   }
   
 }
