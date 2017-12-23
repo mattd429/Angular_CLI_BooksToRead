@@ -4,6 +4,7 @@ import { of } from 'rxjs/observable/of';
 
 import { Book } from './book';
 import { BOOKS } from './mock-books';
+import { MessagesService } from './message.service';
 
 @Injectable()
 export class BookService {
