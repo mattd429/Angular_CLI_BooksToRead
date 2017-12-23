@@ -23,7 +23,8 @@ export class BooksComponent implements OnInIt {
   
   // retreive books from the service...
   getBooks(): void {
-    this.books = this.bookService.getBooks();
+    this.bookService.getBooks()
+      .subscribe(books => this.books = books);
   }
 
 }
