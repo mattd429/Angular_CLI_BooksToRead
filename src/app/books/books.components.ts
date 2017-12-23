@@ -14,6 +14,7 @@ export class BooksComponent implements OnInIt {
   constructor(private bookService: BookService) { }
   
   ngOnInIt() {
+    this.getBooks();
     
   }
   
