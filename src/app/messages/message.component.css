@@ -29,3 +29,7 @@ button:disabled {
   color: #aaa;
   cursor: auto;
 }
+button.clear {
+  color: #888;
+  margin-bottom: 12px;
+}
