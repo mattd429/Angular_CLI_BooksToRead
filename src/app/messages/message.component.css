@@ -24,3 +24,8 @@ button.clear {
 button:hover {
   background-color: #cfd8dc;
 }
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
