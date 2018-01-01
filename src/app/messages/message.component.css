@@ -11,3 +11,13 @@ body, input[text], button {
   color: crimson;
   font-family: Cambria, Georgia;
 }
+
+button.clear {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  paddingL 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
