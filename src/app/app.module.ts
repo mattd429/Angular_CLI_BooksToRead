@@ -6,17 +6,23 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BookComponents } from './books/books.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
 import { BookService } from './book.service.ts';
+import { MessageService } from './message.service';
+import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
     BooksComponent,
-    BookDetailComponent
+    BookDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production}), // will not work unless PROD.
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [ BookService ],
   boostrap: [AppComponent]
