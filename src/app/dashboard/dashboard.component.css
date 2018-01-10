@@ -15,3 +15,6 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+h3 {
+  text-align: center: margin-bottom: 0;
+}
