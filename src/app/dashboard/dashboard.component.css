@@ -4,3 +4,6 @@
   padding-right: 20px;
   padding-bottom: 20px;
 }
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
