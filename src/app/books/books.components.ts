@@ -8,7 +8,6 @@ import { BookService } from '../book.service';
   styleUrls: ['./books.component.css']
 })
 export class BooksComponent implements OnInIt {
-  selectedBook: Book;
   books: Book[];
   
   constructor(private bookService: BookService) { }
@@ -16,10 +15,6 @@ export class BooksComponent implements OnInIt {
   ngOnInIt() {
     this.getBooks();
     
-  }
-  
-  onSelected(book: Book): void {
-    this.selectedBook = book;
   }
   
   // retreive books from the service...
