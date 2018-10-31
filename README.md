@@ -2,7 +2,7 @@
 ![alt text](https://img.shields.io/badge/test-failing-red.svg)
 
 
-# Angular_CLI_BooksToRead Not completed.
+# Angular_CLI_BooksToRead
 Creating a AngularCLI using NodeJS v8.9.1 and npm v5.5.1.
 
 ---
